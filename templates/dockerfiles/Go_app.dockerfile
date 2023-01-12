@@ -1,4 +1,4 @@
-FROM golang:1.17-alpine
+FROM golang:1.18.9-alpine
 WORKDIR /usr/src/app
 COPY . .
 RUN go build
